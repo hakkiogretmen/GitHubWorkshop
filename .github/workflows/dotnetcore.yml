@@ -23,11 +23,11 @@ jobs:
         # The name of the image you would like to push
         name: githubworkshop48635552.azurecr.io/eshopwebmvc
         # The login username for the registry
-        username: $
+        username: $ACR_USERNAME
         # The login password for the registry
-        password: $
+        password: $ACR_PASSWORD
         # Use registry for pushing to a custom registry
-        registry: $
+        registry: $ACR_REGISTRY
         # Use dockerfile when you would like to explicitly build a Dockerfile
         dockerfile: ./src/Web/Dockerfile
  
