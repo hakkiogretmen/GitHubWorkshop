@@ -16,7 +16,7 @@ jobs:
     - name: Build with dotnet
       run: dotnet build ./eShopOnWeb.sln --configuration Release
     - name: Test with dotnet
-      run: dotnet test ./eShopOnWeb.sln --configuration Release
+      run: dotnet test ./eShopOnWeb.sln
     - name: Publish Docker
       uses: elgohr/Publish-Docker-Github-Action@2.12
       with:
